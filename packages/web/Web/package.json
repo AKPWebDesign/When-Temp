@@ -1,0 +1,17 @@
+{
+  "name": "@whenapp/web",
+  "version": "1.0.0",
+  "license": "MIT",
+  "browser": "dist/index.html",
+  "source": "src/index.html",
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@whenapp/component-test": "1.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}

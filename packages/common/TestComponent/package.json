@@ -1,0 +1,20 @@
+{
+  "name": "@whenapp/component-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "react": "^16.13.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0"
+  }
+}
