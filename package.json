@@ -1,0 +1,14 @@
+{
+  "name": "@whenapp/monorepo",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*/*"
+  ],
+  "scripts": {
+    "build": "parcel build packages/*/*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.130"
+  }
+}
